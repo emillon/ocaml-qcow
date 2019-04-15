@@ -39,6 +39,7 @@ depends: [
   "mirage-block-ramdisk" {test}
   "ezjsonm" {test}
   "nbd" {test & >= "2.0.1"}
+  "diet"
 ]
 
 build-test: [
